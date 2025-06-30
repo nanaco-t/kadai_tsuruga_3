@@ -18,9 +18,9 @@ color: #008080;
 }
 
 .box {
-    width: 300px;
-    height: 300px;
+    width: 30%;
     background-color: azure;
+    padding-bottom: 20px;
 }
 
 ul{
@@ -43,11 +43,8 @@ p {
 }
 
 @media screen and (max-width :400px){
-   .section-title{
-    flex-direction: column;
-   }
    .box {
-    flex-direction: column;
+    width: 100%;
    }
    ul {
     flex-direction: column;
